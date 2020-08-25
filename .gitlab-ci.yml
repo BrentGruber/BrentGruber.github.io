@@ -1,4 +1,4 @@
-image:  pages/huge_extended
+image:  pages/hugo_extended
 variables:
     GIT_SUBMODULE_STRATEGY: recursive
 pages:
