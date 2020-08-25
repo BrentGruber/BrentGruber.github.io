@@ -47,7 +47,7 @@ enableEmoji                      = true
     #     icon  = "facebook-f" # icon name without the 'fa-'
     #     icon_pack = "fab"
     [[params.social]]
-        url   = "https://linkedin.com/"
+        url   = "https://www.linkedin.com/in/brent-gruber-30b7b781/"
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
