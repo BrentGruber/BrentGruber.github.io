@@ -1,4 +1,4 @@
-image:  peaceiris/hugo-extended-docker
+image:  pages/huge_extended
 variables:
     GIT_SUBMODULE_STRATEGY: recursive
 pages:
