@@ -61,14 +61,14 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 
 # If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+[[menu.main]]
+    name    = "Home"
+    url     = "/"
+    weight  = 0
+[[menu.main]]
+    name    = "Blog"
+    url     = "/blog/"
+    weight  = 1
 
 # We only use tag as a taxonomies
 # You can add more by yourself
@@ -92,34 +92,34 @@ DefaultContentLanguage           = "en"                    # Default language fo
     style = "friendly"
     tabWidth = 4
 
-# [languages]
-#     [languages.en]
-#         languageName     = "English"
-#         languageCode     = "en-us"
-#         contentDir       = "content/en"
-#         weight           = 0
-#         title            = "Introduction"
-#         [languages.en.params]
-#             description  = "Website Description"   # Max 160 characters show in search results
-#             # footerText   = ""                      # Text to override default footer text (markdown allowed)
+[languages]
+    [languages.en]
+        languageName     = "English"
+        languageCode     = "en-us"
+        contentDir       = "content/en"
+        weight           = 0
+        title            = "Introduction"
+        [languages.en.params]
+            description  = "Website Description"   # Max 160 characters show in search results
+            # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
-#     [languages.es]
-#         languageName     = "Español"
-#         languageCode     = "es"
-#         contentDir       = "content/es"
-#         weight           = 1
-#         title            = "Introducción"
-#         [languages.es.params]
-#             description  = "Descripcion del sitio web"
-#             # footerText   = ""
+    [languages.es]
+        languageName     = "Español"
+        languageCode     = "es"
+        contentDir       = "content/es"
+        weight           = 1
+        title            = "Introducción"
+        [languages.es.params]
+            description  = "Descripcion del sitio web"
+            # footerText   = ""
 
-#     [languages.de]
-#         languageName     = "Deutsch"
-#         languageCode     = "de"
-#         contentDir       = "content/de"
-#         weight           = 2
-#         title            = "Vorstellung"
-#         [languages.de.params]
-#             dateFormat   = "2. January 2006"
-#             description  = "Beschreibung der Webseite"
-#             # footerText   = ""
+    [languages.de]
+        languageName     = "Deutsch"
+        languageCode     = "de"
+        contentDir       = "content/de"
+        weight           = 2
+        title            = "Vorstellung"
+        [languages.de.params]
+            dateFormat   = "2. January 2006"
+            description  = "Beschreibung der Webseite"
+            # footerText   = ""
