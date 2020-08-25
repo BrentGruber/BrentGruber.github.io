@@ -3,6 +3,7 @@ variables:
     GIT_SUBMODULE_STRATEGY: recursive
 pages:
     script:
+        - apk add --update nodejs npm
         - npm install postcss-cli
         - npm install autoprefixer
         - hugo
