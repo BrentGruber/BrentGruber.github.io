@@ -47,6 +47,10 @@
                 {{ $pages = $pages | append . }}
             {{ end }}
 
+            {{ with .Site.GetPage "/skills" }}
+                {{ $pages = $pages | append . }}
+            {{ end }}
+
             {{ with .Site.GetPage "/projects" }}
                 {{ $pages = $pages | append . }}
             {{ end }}

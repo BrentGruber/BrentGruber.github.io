@@ -1,0 +1,58 @@
+<style>
+    img {
+        box-shadow: 0px 0px 0px rgba(0,0,0,0);
+        border: 0px
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .skill-container {
+        margin: auto;
+        max-width: 1000px;
+        width: 100%;
+        background-color: #ddd;
+    }
+
+    .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+    }
+
+    .value-80 {
+        width: 80%;
+        background-color: #94cff1;
+    }
+
+    .value-60 {
+        width: 60%;
+        background-color: #b9e0f7;
+    }
+
+    .value-40 {
+        width: 40%;
+        background-color: #d7edfa;
+    }
+
+    .value-20 {
+        width: 20%;
+        background-color: #808080;
+    }
+</style>
+
+<h2 class="title is-2 has-text-centered">Skills</h2>
+{{ range .Pages.ByWeight.Reverse }}
+{{ $percent := div (mul .Params.weight 100) 5 }}
+<div class="has-text-centered">
+    <img src="{{ .Params.icon }}" height="50" width="50">
+    <div class="skill-container">
+        <div class="skills value-{{ $percent }}">{{ .Params.weight }}</div>
+    </div>
+</div>
+{{ end }}
+<div class="container">
+    <hr>
+</div>

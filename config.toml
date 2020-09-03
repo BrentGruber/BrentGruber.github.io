@@ -1,4 +1,4 @@
-baseURL                          = "/personal-page/"   # Your domain name. Must end with "/"
+baseURL                          = "/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 enableEmoji                      = true
@@ -65,11 +65,23 @@ enableEmoji                      = true
 [[menu.main]]
     name    = "Home"
     url     = "/"
-    weight  = 0
+    weight  = 1
+[[menu.main]]
+    name    = "About"
+    url     = "/#about"
+    weight  = 2
+[[menu.main]]
+    name    = "Skills"
+    url     = "/#skills"
+    weight  = 3
 [[menu.main]]
     name    = "Blog"
     url     = "/blog/"
-    weight  = 1
+    weight  = 4
+[[menu.main]]
+    name    = "Contact"
+    url     = "/#contact"
+    weight  = 5
 
 # We only use tag as a taxonomies
 # You can add more by yourself
@@ -104,23 +116,23 @@ enableEmoji                      = true
             description  = "Website Description"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
-    [languages.es]
-        languageName     = "Español"
-        languageCode     = "es"
-        contentDir       = "content/es"
-        weight           = 1
-        title            = "Introducción"
-        [languages.es.params]
-            description  = "Descripcion del sitio web"
-            # footerText   = ""
+#    [languages.es]
+#        languageName     = "Español"
+#        languageCode     = "es"
+#        contentDir       = "content/es"
+#        weight           = 1
+#        title            = "Introducción"
+#        [languages.es.params]
+#            description  = "Descripcion del sitio web"
+#            # footerText   = ""
 
-    [languages.de]
-        languageName     = "Deutsch"
-        languageCode     = "de"
-        contentDir       = "content/de"
-        weight           = 2
-        title            = "Vorstellung"
-        [languages.de.params]
-            dateFormat   = "2. January 2006"
-            description  = "Beschreibung der Webseite"
-            # footerText   = ""
+#    [languages.de]
+#        languageName     = "Deutsch"
+#        languageCode     = "de"
+#        contentDir       = "content/de"
+#        weight           = 2
+#        title            = "Vorstellung"
+#        [languages.de.params]
+#            dateFormat   = "2. January 2006"
+#            description  = "Beschreibung der Webseite"
+#            # footerText   = ""
