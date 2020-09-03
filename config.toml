@@ -1,4 +1,4 @@
-baseURL                          = "/"   # Your domain name. Must end with "/"
+baseURL                          = "/personal-page/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 enableEmoji                      = true
