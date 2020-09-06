@@ -57,7 +57,7 @@ enableEmoji                      = true
     [[params.social]]
         url = "https://www.buymeacoffee.com/BrentGruber"
         icon = "coffee"
-        icon_pack = "fas
+        icon_pack = "fas"
     # [[params.social]]
     #     url   = "https://mastodon.social/"
     #     icon  = "mastodon" # icon name without the 'fa-'
