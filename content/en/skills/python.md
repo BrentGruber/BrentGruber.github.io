@@ -1,5 +1,5 @@
 ---
 title: "Python"
 weight: 4
-icon: ../icons/python.png
+icon: icons/python.png
 ---

@@ -1,5 +1,5 @@
 ---
 title: "Linux"
 weight: 3
-icon: ../icons/linux.png
+icon: icons/linux.png
 ---

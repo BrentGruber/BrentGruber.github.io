@@ -1,5 +1,5 @@
 ---
 title: "Vue"
 weight: 2
-icon: ../icons/vue.png
+icon: icons/vue.png
 ---
