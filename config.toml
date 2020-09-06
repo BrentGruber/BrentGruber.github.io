@@ -3,7 +3,7 @@ theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 enableEmoji                      = true
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics                 = "UA-177330493-1"                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                   = "light"                 # Choose "light" or "dark"
