@@ -80,13 +80,14 @@
                         {{ with $home.Resources.GetMatch .Params.Image }}
                         {{ with .Resize "320x" }}
                         <img class="img-responsive avatar" src="{{ .Permalink }}" alt="{{ .Name }}">
+                        {{ end }}
+                        {{ end }}
                         <br>
                         <br>
-                        <a href="/" download="{{ .Params.resume }}">
-                            <button class="btn"><i class="fa fa-download"></i> Download Resume</button>
+                        <!-- TODO: parameterize this href -->
+                        <a href="resume.pdf" download>
+                            <button class="button btn"><i class="fa fa-download"></i> Download Resume</button>
                         </a>
-                        {{ end }}
-                        {{ end }}
                     </div>
                     <div class="markdown column">
                         {{ .Content }}
