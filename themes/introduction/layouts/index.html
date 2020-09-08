@@ -80,6 +80,11 @@
                         {{ with $home.Resources.GetMatch .Params.Image }}
                         {{ with .Resize "320x" }}
                         <img class="img-responsive avatar" src="{{ .Permalink }}" alt="{{ .Name }}">
+                        <br>
+                        <br>
+                        <a href="/" download="resume.pdf">
+                            <button class="button btn"><i class="fa fa-download"></i> Download Resume</button>
+                        </a>
                         {{ end }}
                         {{ end }}
                     </div>

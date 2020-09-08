@@ -1,6 +1,7 @@
 ---
 title: "About"
 image: "profile.jpg"
+resume: "resume.pdf"
 weight: 8
 ---
 
