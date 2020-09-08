@@ -82,7 +82,7 @@
                         <img class="img-responsive avatar" src="{{ .Permalink }}" alt="{{ .Name }}">
                         <br>
                         <br>
-                        <a href="/" download="resume.pdf">
+                        <a href="/" download="{{ .Params.resume }}">
                             <button class="btn"><i class="fa fa-download"></i> Download Resume</button>
                         </a>
                         {{ end }}
