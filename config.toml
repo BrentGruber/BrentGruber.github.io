@@ -1,4 +1,4 @@
-baseURL                          = "/personal-page/"   # Your domain name. Must end with "/"
+baseURL                          = "/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 enableEmoji                      = true
@@ -13,7 +13,7 @@ googleAnalytics                 = "UA-177330493-1"                     # https:/
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
     email                        = "bg240711@outlook.com"   # E-mail address for contact section
-    customCSS                    = ["buttons.css"]             # Include custom css files placed under assets/
+    customCSS                  = ["buttons.css"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
 
     # Configure the home page
